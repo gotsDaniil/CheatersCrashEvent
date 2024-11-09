@@ -1,0 +1,12 @@
+name: CheatersCrashEvent
+version: '${project.version}'
+main: work.gotsdaniil.cheaterscrashevent.CheatersCrashEvent
+api-version: '1.16'
+load: STARTUP
+authors: [gotsDaniil]
+description: Наказывайте читеров разными способами
+commands:
+  cheaterscrashevent:
+    description: Команда для пыток над читерами
+    usage: cce <тим-пытки> <ник-игрока>
+    aliases: [cce]
